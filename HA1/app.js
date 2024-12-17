@@ -1,0 +1,10 @@
+const logMessage = require('./simpleLogger/logger')
+logMessage('Мы с тобой шли ?')
+logMessage('Шли')
+logMessage('Тулуп нашли ?')
+logMessage('Nашли ')
+logMessage('а где он ?')
+logMessage('кто ?')
+logMessage('Тулуп')
+logMessage('какой ?')
+console.log(`Сервер активен порт 3000!!`);
