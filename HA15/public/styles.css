@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(110, 110, 110);
+  gap: 16px;
+  margin: 30px auto;
+  font-family: monospace;
+}
+
+#input {
+  width: 300px;
+  align-self: center;
+  outline-color: yellow;
+  resize: none;
+  border-radius: 8px;
+  color: rgb(0, 79, 119);
+  font-weight: bold;
+  padding: 8px;
+}
+
+#button {
+  width: 200px;
+  padding: 20px 30px;
+  align-self: center;
+  border-radius: 8px;
+  font-weight: bolder;
+  background: linear-gradient(yellow,rgb(255, 255, 231),rgb(255, 255, 134),yellow);
+  box-shadow:  2px 4px 10px black;
+}
+
+#button:hover {
+  filter: brightness(0.9);
+}
+
+#button:active {
+  box-shadow:  -1px -1px 5px black;
+  transform: translateY(2pxs);
+}
+
+#messageList {
+  align-self: center;
+}
+
+li {
+  margin-bottom: 8px;
+}
